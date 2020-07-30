@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <!-- <variable
+             name="loginModel"
+             type="com.app.firstpathScheduling.login.data.model.LoginModel" />-->
+
+    </data>
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgPhoto"
+            android:src="@drawable/placeholder"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnChangeImage"
+            android:textAllCaps="false"
+            android:text="@string/changeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        
+        
+        
+    </LinearLayout>
+
+
+</layout>
