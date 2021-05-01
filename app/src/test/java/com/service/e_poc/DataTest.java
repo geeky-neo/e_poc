@@ -21,8 +21,8 @@ public class DataTest {
     }
 
     @Test
-    public void check_list(){
-        List<String> image_list = oData.getPetImageList();
-        assertFalse(image_list.isEmpty());
+    public void checkDataList(){
+        List<String> imageList = oData.getPetImageList();
+        assertFalse(imageList.isEmpty());
     }
 }
